@@ -1,0 +1,32 @@
+:root {
+    --regular-font: 'dm_sansregular', sans-serif;
+    --bold-font: 'dm_sansbold', sans-serif;
+    --italic-font: 'dm_sansitalic', sans-serif;
+}
+
+@font-face {
+	font-family: "dm_sansregular";
+	src: url("../fonts/dmsans-regular-webfont.woff2") format("woff2"),
+		url("../fonts/dmsans-regular-webfont.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+	font-family: "dm_sansbold";
+	src: url("../fonts/dmsans-bold-webfont.woff2") format("woff2"),
+		url("../fonts/dmsans-bold-webfont.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+	font-family: "dm_sansitalic";
+	src: url("../fonts/dmsans-italic-webfont.woff2") format("woff2"),
+		url("../fonts/dmsans-italic-webfont.woff") format("woff");
+	font-weight: 800;
+	font-style: italic;
+    font-display: swap;
+}
